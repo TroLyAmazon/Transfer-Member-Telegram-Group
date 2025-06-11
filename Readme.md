@@ -1,6 +1,8 @@
 Transfer Member Telegram Group
 Một script Python sử dụng thư viện Telethon để tự động mời thành viên từ một nhóm Telegram nguồn sang một nhóm Telegram đích.
-✨ Tính năng
+
+
+# ✨ Tính năng
 
 Lấy danh sách thành viên từ nhóm nguồn.
 Lấy danh sách thành viên hiện có trong nhóm đích để tránh mời trùng lặp.
@@ -16,7 +18,7 @@ UserAlreadyParticipantError: Người dùng đã có trong nhóm đích.
 
 Tự động thêm khoảng dừng ngẫu nhiên giữa các lần mời để giảm nguy cơ bị giới hạn.
 
-📋 Yêu cầu trước khi sử dụng
+# 📋 Yêu cầu trước khi sử dụng
 Trước khi chạy script, hãy đảm bảo bạn đã chuẩn bị:
 
 Python 3.x: Tải và cài đặt Python 3.x từ python.org.
@@ -33,7 +35,7 @@ Tạo một ứng dụng mới để nhận api_id và api_hash.
 
 
 
-⚙️ Cấu hình
+# ⚙️ Cấu hình
 Mở tệp main.py và chỉnh sửa các thông tin sau:
 api_id = 12344321  # Thay bằng API ID của bạn
 api_hash = 'YOUR_API_HASH'  # Thay bằng API Hash của bạn
@@ -49,7 +51,7 @@ Sử dụng bot Telegram như @userinfobot hoặc @myidbot.
 Chuyển tiếp một tin nhắn từ nhóm nguồn hoặc đích đến bot, bot sẽ trả về ID nhóm (thường là số âm).
 Lưu ý: Bạn phải là quản trị viên của nhóm đích để có quyền mời thành viên.
 
-🚀 Hướng dẫn sử dụng
+# 🚀 Hướng dẫn sử dụng
 
 Lưu các thay đổi trong tệp main.py.
 
@@ -71,7 +73,7 @@ Bắt đầu mời từng thành viên, hiển thị nhật ký chi tiết trên
 
 
 
-⚠️ Lưu ý quan trọng
+# ⚠️ Lưu ý quan trọng
 
 Giới hạn của Telegram: Telegram áp dụng giới hạn nghiêm ngặt về số lượng lời mời để chống spam. Script đã tích hợp khoảng dừng ngẫu nhiên, nhưng mời quá nhiều người trong thời gian ngắn có thể gây lỗi PeerFloodError hoặc FloodWaitError.
 An toàn tài khoản: Sử dụng tính năng mời quá mức có thể dẫn đến tài khoản bị hạn chế tạm thời hoặc khóa vĩnh viễn. Hãy sử dụng cẩn thận.
@@ -83,9 +85,9 @@ UserPrivacyRestrictedError: Cài đặt quyền riêng tư của người dùng 
 
 
 
-🛡️ Miễn trừ trách nhiệm
+# 🛡️ Miễn trừ trách nhiệm
 Script này được cung cấp cho mục đích học tập và thử nghiệm. Người dùng chịu hoàn toàn trách nhiệm về cách sử dụng script và mọi hậu quả phát sinh, bao gồm việc vi phạm Điều khoản Dịch vụ của Telegram hoặc bị hạn chế tài khoản. Nhà phát triển không chịu trách nhiệm cho bất kỳ thiệt hại nào do sử dụng script này.
-📬 Hỗ trợ
+# 📬 Hỗ trợ
 Nếu gặp sự cố hoặc có câu hỏi, vui lòng mở issue trên repository hoặc liên hệ với người duy trì.
 
 Chúc bạn thành công! 🚀
