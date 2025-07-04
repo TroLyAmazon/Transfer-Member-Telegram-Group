@@ -5,9 +5,9 @@ from telethon.sync import TelegramClient
 from telethon.errors.rpcerrorlist import PeerFloodError, UserPrivacyRestrictedError, UserChannelsTooMuchError, FloodWaitError, UserAlreadyParticipantError
 from telethon.tl.functions.channels import InviteToChannelRequest
 
-api_id = 12344321  # THAY BẰNG API ID MỚI CỦA BẠN
-api_hash = 'YOUR_API_HASH' # THAY BẰNG API HASH MỚI CỦA BẠN
-phone_number = '+84...' # SỐ ĐIỆN THOẠI CỦA BẠN
+api_id = 25384018  # THAY BẰNG API ID MỚI CỦA BẠN
+api_hash = '88bb30ce227b0b26a89342c6b1baf084' # THAY BẰNG API HASH MỚI CỦA BẠN
+phone_number = '+84968811628' # SỐ ĐIỆN THOẠI CỦA BẠN
 
 # 3. ID CỦA NHÓM NGUỒN VÀ NHÓM ĐÍCH
 source_group_id = -1002865411653
