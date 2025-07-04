@@ -10,8 +10,8 @@ api_hash = 'YOUR_API_HASH' # THAY BẰNG API HASH MỚI CỦA BẠN
 phone_number = '+84...' # SỐ ĐIỆN THOẠI CỦA BẠN
 
 # 3. ID CỦA NHÓM NGUỒN VÀ NHÓM ĐÍCH
-source_group_id = -1002410590559
-target_group_id = -1002865411653
+source_group_id = -1002865411653
+target_group_id = -1002549126370
 
 async def main():
     print("Bước 1: Lấy danh sách thành viên đã có trong nhóm đích...")
