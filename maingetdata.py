@@ -1,8 +1,8 @@
 import asyncio
 from telethon.sync import TelegramClient
 
-api_id = 25384018
-api_hash = '88bb30ce227b0b26a89342c6b1baf084'
+api_id = 12345678
+api_hash = 'apihash'
 phone_number = '+84968811628'
 
 target_group_id = -1002865411653

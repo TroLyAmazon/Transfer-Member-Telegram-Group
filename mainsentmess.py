@@ -2,7 +2,7 @@ import requests
 import random
 import time
 
-tokenbot = '7644314791:AAGzIpsQL081N7R8ilvJo4-epjrIC8ckVU8'
+tokenbot = 'tokenbot'
 
 MESSAGE_VARIANTS = [
     "Bạn ơi, tham gia nhóm mới của mình nhé: https://t.me/+MG8Fzn70EV0xYTZl",
@@ -18,7 +18,7 @@ MESSAGE_VARIANTS = [
 ]
 
 def send_message(user_id, message):
-    url = f"https://api-free-proxy-telegram-baomatdo.tacphosting.workers.dev/bot{tokenbot}/sendMessage"
+    url = f"https://api.telegram.org/bot{tokenbot}/sendMessage"
     payload = {
         "chat_id": user_id,
         "text": message
